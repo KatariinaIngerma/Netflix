@@ -28,8 +28,11 @@ def film_või_sari():
 #def vaatamise_aeg():
     
 raam = Tk()
-raam.configure(bg="Black")
+raam.configure(bg="white")
 raam.geometry("1000x800")
+pilt = PhotoImage(file="pilt.png")
+silt = Label(image=pilt)
+silt.pack()
 
 Button(raam, text="Filmide ja sarjade jaotus",
        command= film_või_sari, bg="red", fg="white").pack(pady=20) #pady paneb ridadele vahed ja pack paneb asja keskele
@@ -37,8 +40,5 @@ Button(raam, text="Filmide ja sarjade jaotus",
 sisend = Entry(raam)
 sisend.pack()
 nupp = Button(raam, text="Saada", command=send, bg="red", fg="white").pack()
-
-#pilt=Image.open("pilt.png")
-#test=ImageTk.PhotoImage(pilt) ei tööta haha
 
 raam.mainloop()

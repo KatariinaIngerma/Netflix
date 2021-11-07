@@ -14,6 +14,7 @@ def send():
         text.insert(END, "\n" + "Bot: midagi")
 text = Text(raam, bg="black", fg="white")
 text.grid(row = 0, column=0, columnspan=2)
+
 e = Entry(raam, width=70)
 send = Button(raam, text="Saada", bg="deeppink", fg="white",
               width=20, command=send).grid(row=1, column=1)
