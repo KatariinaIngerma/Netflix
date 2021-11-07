@@ -1,9 +1,13 @@
 import matplotlib.pyplot as plot
 import pandas as pd
 import numpy as np
-import time
 from tkinter import *
+from PIL import ImageTk, Image
 
+def send():
+    text.insert(END, "\n"+ send)
+    #if sisend == "...midagi":
+        #siis..
 def film_või_sari(): 
     data = pd.read_csv('KertuViewingActivity.csv')
     pealkirjad = data.head(0)
@@ -20,7 +24,21 @@ def film_või_sari():
     värvid = ["Black", "red"]
     plot.pie(y, labels = tähistused, colors = värvid)
     plot.show()
+#if row (0) is not kertu delete row
+#def vaatamise_aeg():
+    
 raam = Tk()
-raam.geometry("1000x1000")
-Button(raam, text="Filmide ja sarjade jaotus", command= film_või_sari).pack(pady=20)
+raam.configure(bg="Black")
+raam.geometry("1000x800")
+
+Button(raam, text="Filmide ja sarjade jaotus",
+       command= film_või_sari, bg="red", fg="white").pack(pady=20) #pady paneb ridadele vahed ja pack paneb asja keskele
+
+sisend = Entry(raam)
+sisend.pack()
+nupp = Button(raam, text="Saada", command=send, bg="red", fg="white").pack()
+
+#pilt=Image.open("pilt.png")
+#test=ImageTk.PhotoImage(pilt) ei tööta haha
+
 raam.mainloop()
