@@ -4,10 +4,15 @@ import numpy as np
 from tkinter import *
 from PIL import ImageTk, Image
 
-def send():
-    text.insert(END, "\n"+ send)
-    #if sisend == "...midagi":
-        #siis..
+def kasutaja_sisend():
+    data = pd.read_csv('KertuViewingActivity.csv')
+    s = str(sisend.get())
+    #if s in data["Title"]:  
+    #    print("je")
+    for veerg in data["Title"]:
+        if s in veerg:
+            print("je")
+        
 def film_või_sari(): 
     data = pd.read_csv('KertuViewingActivity.csv')
     pealkirjad = data.head(0)
@@ -24,12 +29,13 @@ def film_või_sari():
     värvid = ["Black", "red"]
     plot.pie(y, labels = tähistused, colors = värvid)
     plot.show()
+    
 #if row (0) is not kertu delete row
 #def vaatamise_aeg():
-    
+   
 raam = Tk()
 raam.configure(bg="white")
-raam.geometry("1000x800")
+raam.geometry("1000x600")
 pilt = PhotoImage(file="pilt.png")
 silt = Label(image=pilt)
 silt.pack()
@@ -39,6 +45,6 @@ Button(raam, text="Filmide ja sarjade jaotus",
 
 sisend = Entry(raam)
 sisend.pack()
-nupp = Button(raam, text="Saada", command=send, bg="red", fg="white").pack()
+nupp = Button(raam, text="Saada", command=kasutaja_sisend, bg="red", fg="white").pack()
 
 raam.mainloop()
