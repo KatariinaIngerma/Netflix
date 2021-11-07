@@ -6,12 +6,10 @@ from PIL import ImageTk, Image
 
 def kasutaja_sisend():
     data = pd.read_csv('KertuViewingActivity.csv')
-    s = str(sisend.get())
-    #if s in data["Title"]:  
-    #    print("je")
-    for veerg in data["Title"]:
-        if s in veerg:
-            print("je")
+    uus_sisend = str(sisend.get())
+    #for veerg in data["Title"]:
+       # if uus_sisend in veerg:
+           # data["Duration"]
         
 def film_või_sari(): 
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -34,17 +32,20 @@ def film_või_sari():
 #def vaatamise_aeg():
    
 raam = Tk()
+raam.call('wm', 'iconphoto', raam._w, PhotoImage(file='n.png'))
+raam.title("Netflix andmeanalüüs")
 raam.configure(bg="white")
 raam.geometry("1000x600")
 pilt = PhotoImage(file="pilt.png")
 silt = Label(image=pilt)
 silt.pack()
-
 Button(raam, text="Filmide ja sarjade jaotus",
-       command= film_või_sari, bg="red", fg="white").pack(pady=20) #pady paneb ridadele vahed ja pack paneb asja keskele
+       command= film_või_sari, bg="red", fg="white", font="Graphique 15").pack(pady=20) #pady paneb ridadele vahed ja pack paneb asja keskele
+sisendi_silt = Label(raam, text="Kirjuta siia sarja või filmi nimi:", font="Graphique 15" )
+sisendi_silt.pack()
+sisend = Entry(raam, width=40, font="Graphique 15")
 
-sisend = Entry(raam)
 sisend.pack()
-nupp = Button(raam, text="Saada", command=kasutaja_sisend, bg="red", fg="white").pack()
+nupp = Button(raam, text="Saada", command=kasutaja_sisend, bg="red", fg="white", font="Graphique 15").pack()
 
 raam.mainloop()
