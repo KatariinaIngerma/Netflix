@@ -7,6 +7,8 @@ from PIL import ImageTk, Image
 from icrawler.builtin import GoogleImageCrawler
 import os
 import time
+import datetime
+import calendar
 
 raam = Tk()
 sisend = Entry(raam, width=40, font="Graphique 15")
@@ -47,11 +49,65 @@ def send():
             aeg = aeg[(aeg['Duration'] > '0 days 00:01:00')]
             kokku = ("Oled vaadanud seda: ", aeg['Duration'].sum())
             return kokku
-        if kasutaja_sisend not in veerg:
-            kokku = "Sa pole seda vaadanud :("
-            return kokku
-        
+#         else:
+#             kokku1 = "Sa pole seda vaadanud :(" #sellega ei toota avga
+#         return kokku1
+#         
+def päevad():
 
+    data = pd.read_csv('KertuViewingActivity.csv')
+    for veerg in data["Start Time"]:
+        data["Start Time"] = pd.to_datetime[veerg]
+        data = data.set_index('Start Time')
+        data.index = data.index.tz_localize('UTC').tz_convert('Eastern/European')
+        data = data.reset.index()
+        print(data.head(1))
+        
+def päev():
+    E = 0
+    T = 0
+    K = 0
+    N = 0
+    R = 0
+    L = 0
+    P = 0
+    data = pd.read_csv('KertuViewingActivity.csv')
+    aeg = data["Start Time"]
+    kasutaja_sisend = str(sisend.get())
+    listike=[]
+    for veerg in aeg:
+        rida = veerg.split()
+        uus1 = rida[0]
+        uus2 = uus1.split("-")
+        uus3 = uus2[::-1]
+        string = " ".join(uus3)
+        päev = datetime.datetime.strptime(string,'%d %m %Y').weekday()
+        päeva_nimi = calendar.day_name[päev]
+        if päeva_nimi == "Monday":
+            E += 1
+            
+        elif päeva_nimi == "Tuesday":
+            T += 1
+        elif päeva_nimi == "Wednesday":
+            K += 1
+        elif päeva_nimi == "Thursday":
+            N += 1
+        elif päeva_nimi == "Friday":
+            R += 1
+        elif päeva_nimi == "Saturday":
+            L += 1
+        elif päeva_nimi == "Sunday":
+            P += 1
+    listike.append(E) #kas seda saab kokku võtta?
+    listike.append(T)
+    listike.append(K)
+    listike.append(N)
+    listike.append(R)
+    listike.append(L)
+    listike.append(P)
+    plot.bar(["E","T", "K", "N", "R", "L", "P"], listike)
+    plot.show()   
+                     
 def aeg():
     data = pd.read_csv('KertuViewingActivity.csv')
     data['Duration'] = pd.to_timedelta(data['Duration'])
@@ -66,9 +122,12 @@ def uus_nimi():
         base = os.path.splitext(vana_nimi)[0]
         os.rename(vana_nimi, base + ".png")
     except:
-        vana_nimi = "000001.jpeg"
-        base = os.path.splitext(vana_nimi)[0]
-        os.rename(vana_nimi, base + ".png")
+        try:
+            vana_nimi = "000001.jpeg"
+            base = os.path.splitext(vana_nimi)[0]
+            os.rename(vana_nimi, base + ".png")
+        except:
+            print("okei")
         
 def kustuta_pilt():
     if os.path.exists("000001.png"):
@@ -96,7 +155,7 @@ def kogu_aeg():
     kokku=pd.to_timedelta(data['Duration']).sum()
     print(kokku)
     return kokku
-kogu_aeg()    
+#kogu_aeg()    
     
 def üldine_aken():
     plot1=film_või_sari()
@@ -121,6 +180,7 @@ silt.pack()
 
 # Button(raam, text="Filmide ja sarjade jaotus",command= film_või_sari,
 #        bg="red2", fg="white", font="Graphique 15").pack(pady=20) #pady paneb ridadele vahed ja pack paneb asja keskele
+
 sisendi_silt = Label(raam, text="Kirjuta siia sarja või filmi nimi:", bg ="white", fg="red", font="Graphique 15")
 sisendi_silt.pack(pady=20)
 sisend = Entry(raam, width=40, font="Graphique 15")
