@@ -6,7 +6,6 @@ from tkinter import *
 from PIL import ImageTk, Image
 from icrawler.builtin import GoogleImageCrawler
 import os
-import time
 import datetime
 import calendar
 
@@ -17,7 +16,7 @@ def kasutaja_sisend():
     data = pd.read_csv('KertuViewingActivity.csv')
     uus_sisend = str(sisend.get())
     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\katar\OneDrive\Desktop\Netflix'})
-    #google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
+#     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
     google_Crawler.crawl(keyword = uus_sisend, max_num = 1)
     return uus_raam()
 
@@ -54,7 +53,6 @@ def send():
 #         return kokku1
 #         
 def päevad():
-
     data = pd.read_csv('KertuViewingActivity.csv')
     for veerg in data["Start Time"]:
         data["Start Time"] = pd.to_datetime[veerg]
@@ -63,7 +61,7 @@ def päevad():
         data = data.reset.index()
         print(data.head(1))
         
-def päev():
+def subplot():
     E = 0
     T = 0
     K = 0
@@ -85,7 +83,6 @@ def päev():
         päeva_nimi = calendar.day_name[päev]
         if päeva_nimi == "Monday":
             E += 1
-            
         elif päeva_nimi == "Tuesday":
             T += 1
         elif päeva_nimi == "Wednesday":
@@ -98,16 +95,30 @@ def päev():
             L += 1
         elif päeva_nimi == "Sunday":
             P += 1
-    listike.append(E) #kas seda saab kokku võtta?
-    listike.append(T)
-    listike.append(K)
-    listike.append(N)
-    listike.append(R)
-    listike.append(L)
-    listike.append(P)
-    plot.bar(["E","T", "K", "N", "R", "L", "P"], listike)
-    plot.show()   
-                     
+    listike.extend([E,T,K,N,R,L,P])
+
+    plot.subplot(1, 2, 1)
+    plot.bar(["E","T", "K", "N", "R", "L", "P"], listike, color ="red")
+    plot.title("Oled vaadanud Netflixi nende päevadel")
+    data = pd.read_csv('KertuViewingActivity.csv')
+    pealkirjad = data.head(0)
+    sisu = data["Title"]
+    sarjad = 0
+    filmid = 0
+    for veerg in sisu:
+        if "Season" in veerg:
+            sarjad += 1
+        else:
+            filmid += 1
+    y = np.array([sarjad, filmid])
+    tähistused = ["Sarjad", "Filmid"]
+    värvid = ["red", "black"]
+    plot.subplot(1, 2, 2)
+    plot.pie(y, labels = tähistused, colors = värvid)
+    plot.title("Filmide ja sarjade jaotus")
+    plot.show()
+
+subplot()
 def aeg():
     data = pd.read_csv('KertuViewingActivity.csv')
     data['Duration'] = pd.to_timedelta(data['Duration'])
@@ -139,27 +150,27 @@ def film_või_sari():
     sisu = data["Title"]
     sarjad = 0
     filmid = 0
-    for veerg in data["Title"]:
+    for veerg in sisu:
         if "Season" in veerg:
             sarjad += 1
         else:
             filmid += 1
     y = np.array([sarjad, filmid])
     tähistused = ["Sarjad", "Filmid"]
-    värvid = ["Black", "red"]
+    värvid = ["red", "black"]
+    plot.title("Filmide ja sarjade jaotus")
     plot.pie(y, labels = tähistused, colors = värvid)
-    plot.show()
     
+
 def kogu_aeg():
     data = pd.read_csv('KertuViewingActivity.csv')
     kokku=pd.to_timedelta(data['Duration']).sum()
     print(kokku)
     return kokku
-#kogu_aeg()    
+
     
 def üldine_aken():
-    plot1=film_või_sari()
-    canvas = FigureCanvasTkAgg(plot1, master = raam)
+    subplot()
     canvas.draw()
     canvas.get_tk_widget().pack()
     toolbar = NavigationToolbar2TkAgg(canvas, self)
@@ -188,3 +199,6 @@ sisend.pack()
 nupp = Button(raam, text="Näita", command=kasutaja_sisend, bg="white", fg="red2", font="Graphique 15").pack()
 Üldised_andmed= Button(raam, text="Kõik andmed", command=üldine_aken, bg="white",  fg="red2", font="Graphique 15").pack(pady=20)
 raam.mainloop()
+
+
+#himym vs ülejäänud 
