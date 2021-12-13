@@ -8,6 +8,7 @@ from icrawler.builtin import GoogleImageCrawler
 import os
 import datetime
 import calendar
+import matplotlib.image as mpimg
 
 raam = Tk()
 sisend = Entry(raam, width=40, font="Graphique 15")
@@ -18,24 +19,46 @@ def kasutaja_sisend():
     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\katar\OneDrive\Desktop\Netflix'})
 #     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
     google_Crawler.crawl(keyword = uus_sisend, max_num = 1)
-    return uus_raam()
+    uus_nimi()
+    uusraam = Toplevel(raam) #toplevel uus aken
+    uusraam.title(str(sisend.get()))
+    uusraam.geometry("1000x600")
+    uusraam.configure(bg="white")
+    nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
+    aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
+#     image = Image.open('000001.png')
+#     image = ImageTk.PhotoImage(image)
+#     img = PhotoImage(file=image).pack()
+#     img = ImageTk.PhotoImage(Image.open("000001.png"))
+#     img = PhotoImage(file="000001.png")
+# 
+#     label = Label(uusraam, image=img)
+#     label.pack()
+# #     uusraam.mainloop()
+#     pilt = PhotoImage(file="C:\Users\katar\OneDrive\Desktop\Netflix\000001.jpg")
+#     silt = Label(image=pilt)
+    img=mpimg.imread("000001.png")
+    imgplot = plot.imshow(img)
+    silt = Label(uusraam, image=imgplot).pack()
 
 def uus_raam():
     uus_nimi()
     uusraam = Toplevel(raam) #toplevel uus aken
     uusraam.title(str(sisend.get()))
     uusraam.geometry("1000x600")
-    #uus_pilt = PhotoImage(file = "000001.png")  #mingi jama pilt ei tule kuidagi :dddd
-#     img = Image.open('000001.png')
-#     photo = ImageTk.PhotoImage(img)
-#     silt = Label(image=photo)
-#     silt.pack()
+    uusraam.configure(bg="white")
     
 #     uus = ImageTk.PhotoImage(uus_pilt)
 #     uus_silt = Label(image=uus)
 #     uus_silt.pack()
-    jama = Label(uusraam, text = send())
-    jama.pack()
+    nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
+    aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
+#     pilt = PhotoImage(file = "000001.png") 
+#     silt = Label(image=pilt).pack()
+    image = Image.open('000001.jpg')
+    image = image.resize((20, 20))
+    image = ImageTk.PhotoImage(image)
+    img = PhotoImage(file=image).pack()
     
 def send():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -46,7 +69,8 @@ def send():
         if kasutaja_sisend in veerg:
             aeg = data[data['Title'].str.contains(kasutaja_sisend, regex=False)]
             aeg = aeg[(aeg['Duration'] > '0 days 00:01:00')]
-            kokku = ("Oled vaadanud seda: ", aeg['Duration'].sum())
+#             aeg = aeg.replace("Days", "päeva")
+            kokku = ("Oled vaadanud seda: " + str(aeg['Duration'].sum()))
             return kokku
 #         else:
 #             kokku1 = "Sa pole seda vaadanud :(" #sellega ei toota avga
@@ -118,15 +142,6 @@ def subplot():
     plot.title("Filmide ja sarjade jaotus")
     plot.show()
 
-subplot()
-def aeg():
-    data = pd.read_csv('KertuViewingActivity.csv')
-    data['Duration'] = pd.to_timedelta(data['Duration'])
-    aeg = data[data['Title'].str.contains(sisend, regex=False)]
-    aeg = aeg[(aeg['Duration'] > '0 days 00:01:00')]
-    kokku=aeg['Duration'].sum()
-    return kokku
-
 def uus_nimi():
     try: 
         vana_nimi = "000001.jpg"
@@ -165,10 +180,8 @@ def film_või_sari():
 def kogu_aeg():
     data = pd.read_csv('KertuViewingActivity.csv')
     kokku=pd.to_timedelta(data['Duration']).sum()
-    print(kokku)
     return kokku
-
-    
+   
 def üldine_aken():
     subplot()
     canvas.draw()
@@ -176,7 +189,6 @@ def üldine_aken():
     toolbar = NavigationToolbar2TkAgg(canvas, self)
     toolbar.update()
     canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-
     #uusraam = Toplevel(raam)
     #uusraam.geometry("1000x600")
     #uusraam.title(text="Üldised andmed")
@@ -199,6 +211,3 @@ sisend.pack()
 nupp = Button(raam, text="Näita", command=kasutaja_sisend, bg="white", fg="red2", font="Graphique 15").pack()
 Üldised_andmed= Button(raam, text="Kõik andmed", command=üldine_aken, bg="white",  fg="red2", font="Graphique 15").pack(pady=20)
 raam.mainloop()
-
-
-#himym vs ülejäänud 
