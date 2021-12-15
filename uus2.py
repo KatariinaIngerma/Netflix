@@ -10,10 +10,8 @@ from os.path import exists
 import datetime
 import calendar
 import matplotlib.image as mpimg
-import csv
 
 raam = Tk()
-raam.geometry('300x250')
 sisend = Entry(raam, width=40, font="Graphique 15")
 def kasutaja_sisend():
     kustuta_pilt()
@@ -21,19 +19,15 @@ def kasutaja_sisend():
     uus_sisend = str(sisend.get())
     google_Crawler = GoogleImageCrawler(storage = {'root_dir':r'/Users/kertujogi/Desktop/progeprojekt'})
 #     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
-    return uus_raam()
-
-def uus_raam():
+    google_Crawler.crawl(keyword = uus_sisend, max_num = 1)
     uus_nimi()
+    kas_pilt_on()
     uusraam = Toplevel(raam) #toplevel uus aken
     uusraam.title(str(sisend.get()))
-    uusraam.geometry("800x600")
+    uusraam.geometry("1000x600")
     uusraam.configure(bg="white")
     nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
     aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
-    graafik = Button(uusraam, text="Nädalapäevad", command = graafik1, font=("Graphique", 15),bg="white").pack(pady=30)
-    graafik2 = Button(uusraam, text="Aastad",command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
-    #graafik3 = Button(uusraam, text="Aastajad", command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
     
 def send():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -44,14 +38,8 @@ def send():
         if kasutaja_sisend in veerg:
             aeg = data[data['Title'].str.contains(kasutaja_sisend, regex=False)]
             aeg = aeg[(aeg['Duration'] > '0 days 00:01:00')]
-            kokku = ("Oled vaadanud seda: "+  str(aeg['Duration'].sum()))
+            kokku = ("Oled vaadanud seda: " + str(aeg['Duration'].sum()))
             return kokku
-        
-def uue_akna_graafikud():
-    data = pd.read_csv('KertuViewingActivity.csv')
-    for veerg in data["Start Time"]:
-        data = data.set_index('Start Time')
-
 
 def päevad():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -119,8 +107,6 @@ def üldine_info_aken():
     plot.title("Filmide ja sarjade jaotus")
     plot.suptitle("Kokku oled vaadanud Netflixi: "+ str(kogu_aeg()), fontsize = 16)
     plot.show()
-    
-    
 
 def uus_nimi():
     try: 
@@ -177,127 +163,6 @@ def kogu_aeg():
     data = pd.read_csv('KertuViewingActivity.csv')
     kokku=pd.to_timedelta(data['Duration']).sum()
     return kokku
-
-def graafik1():
-    E = 0
-    T = 0
-    K = 0
-    N = 0
-    R = 0
-    L = 0
-    P = 0
-    data = pd.read_csv('KertuViewingActivity.csv')
-    aeg = data["Start Time"]
-    kasutaja_sisend = sisend.get()
-    listike=[]
-    for kasutaja_sisend in rida:
-        for rida in aeg:
-            üks_rida = rida.split()
-            uus1 = üks_rida[0]
-            uus2 = uus1.split("-")
-            uus3 = uus2[::-1]
-            string = " ".join(uus3)
-            päev = datetime.datetime.strptime(string,'%d %m %Y').weekday()
-            päeva_nimi = calendar.day_name[päev]
-            
-            if päeva_nimi == "Monday":
-                E += 1
-            elif päeva_nimi == "Tuesday":
-                T += 1
-            elif päeva_nimi == "Wednesday":
-                K += 1
-            elif päeva_nimi == "Thursday":
-                N += 1
-            elif päeva_nimi == "Friday":
-                R += 1
-            elif päeva_nimi == "Saturday":
-                L += 1
-            elif päeva_nimi == "Sunday":
-                P += 1
-    listike.extend([E,T,K,N,R,L,P])   
-    plot.bar(["E","T", "K", "N", "R", "L", "P"], listike, color ="red")
-    plot.title("Oled vaadanud Netflixi nende päevadel")
-    plot.show()
-    
-def graafik2():
-    #aastajaliselt??
-    data = pd.read_csv('KertuViewingActivity.csv')
-    aeg = data["Start Time"]
-    kasutaja_sisend = sisend.get()
-    aastaajad=[]
-    Suvi=0
-    Sügis=0
-    Talv=0
-    Kevad=0
-    for rida in aeg:
-        for kasutaja_sisend in rida:
-            üks_rida = rida.split()
-            uus1 = üks_rida[0]
-            uus2 = uus1.split("-")
-            kuu = uus2[1]
-            if kuu == "01":
-                Talv += 1
-            elif kuu == "02":
-                Talv += 1
-            elif kuu == "12":
-                Talv += 1
-            elif kuu == "03":
-                Kevad += 1
-            elif kuu == "04":
-                Kevad += 1
-            elif kuu == "05":
-                Kevad += 1
-            elif kuu == "06":
-                Suvi += 1
-            elif kuu == "07":
-                Suvi += 1
-            elif kuu == "08":
-                Suvi += 1
-            elif kuu == "09":
-                Sügis += 1
-            elif kuu == "10":
-                Sügis += 1
-            elif kuu == "11":
-                Sügis += 1
-    aastaajad.extend([Talv, Kevad, Suvi, Sügis])
-    plot.bar(["Talv","Kevad", "Suvi", "Sügis"],aastaajad , color ="red")
-    plot.title("Oled vaadanud Netflixi nende aastaaegadel")
-    plot.show()
-
-def graafik3():
-    with open("KertuViewingActivity.csv") as f:
-        loeb = csv.reader(f)
-        kasutaja_sisend = sisend.get()
-        s=0
-        k=0
-        ü=0
-        üks=0
-        kaks=0
-        listike=[]
-        for row in loeb:
-            pealkiri = row[4]
-            aeg = row[1]
-            if kasutaja_sisend in pealkiri:
-                osad = aeg.split()
-                osad2 = osad[0]
-                osad3 = osad2.split("-")
-                aasta = osad3[0]
-                if aasta == "2017":
-                    s+=1
-                if aasta == "2018":
-                    k += 1
-                if aasta == "2019":
-                    ü += 1
-                if aasta == "2020":
-                    kaks += 1
-                if aasta == "2021":
-                    üks +=1
-        listike.extend([s,ü,k,kaks,üks])
-    #     plot.subplot(1, 2, 1)
-        plot.bar(["2017","2018", "2019", "2020", "2021"], listike, color ="red")
-        plot.show()
-            
-
 
 
 raam.call('wm', 'iconphoto', raam._w, PhotoImage(file='n.png'))

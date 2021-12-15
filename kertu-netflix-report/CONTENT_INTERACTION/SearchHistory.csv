@@ -1,0 +1,400 @@
+Profile Name,Country Iso Code,Device,Is Kids,Query Typed,Displayed Name,Action,Section,Utc Timestamp
+Kertu,EE,HTML 5,0,only murders in the building,Monte Carlo,play,title_results,2021-10-03 17:59:42
+Kertu,EE,iPhone,0,,Friends,view_video_info,popularSearches,2021-08-16 16:10:26
+Kertu,EE,iPhone,0,poldark,Bridgerton,view_video_info,title_results,2021-05-26 11:25:35
+Kertu,EE,iPhone,0,poldark,Pride & Prejudice,view_video_info,title_results,2021-05-26 11:25:12
+Kertu,EE,iPhone,0,black sale,Wanted,view_video_info,title_results,2021-05-26 10:29:33
+Kertu,EE,iPhone,0,black sale,Roman Empire,view_video_info,title_results,2021-05-26 10:29:15
+Kertu,EE,iPhone,0,black sale,Black Sails,view_video_info,title_results,2021-05-26 10:29:03
+Kertu,EE,iPhone,0,what if,WHAT / IF,view_video_info,title_results,2021-05-09 17:15:32
+Kertu,EE,iPhone,0,love 102,Love 101,play,video_info,2021-03-05 20:40:23
+Kertu,EE,iPhone,0,love 102,Love 101,view_video_info,title_results,2021-03-05 20:40:00
+Kertu,EE,HTML 5,0,love 101,Love 101,play,title_results,2021-03-05 18:22:53
+Kertu,EE,iPhone,0,teen,Teen Wolf,view_video_info,title_results,2021-02-25 22:28:53
+Kertu,EE,HTML 5,0,mamma ,Mamma Mia!,play,video_info,2021-02-24 19:24:26
+Kertu,EE,HTML 5,0,mamma ,Mamma Mia!,view_video_info,title_results,2021-02-24 19:24:23
+Kertu,EE,HTML 5,0,twili,Twilight,view_suggestion_info,suggestion_results,2021-02-13 18:58:36
+Kertu,EE,HTML 5,0,dawson,Dawson's Creek,view_video_info,title_results,2021-02-13 14:49:38
+Kertu,EE,HTML 5,0,fight,Fight Club,view_suggestion_info,suggestion_results,2021-02-12 18:59:39
+Kertu,EE,iPhone,0,,,play,video_info,2021-01-17 07:36:27
+Kertu,EE,iPhone,0,,Brooklyn Nine-Nine,view_video_info,popularSearches,2021-01-17 07:36:20
+Kertu,US,HTML 5,0,diplom,The Diplomat,view_suggestion_info,suggestion_results,2021-01-10 13:07:10
+Kertu,US,HTML 5,0,diplomacy,Diplomacy,view_suggestion_info,suggestion_results,2021-01-10 13:07:04
+Kertu,EE,HTML 5,0,ann,Anne with an E,view_video_info,title_results,2020-11-30 18:48:06
+Kertu,EE,iPhone,0,dirty dancing,The Movies That Made Us,view_video_info,title_results,2020-11-29 08:36:46
+Kertu,EE,HTML 5,0,scandal,How to Get Away With Murder,play,suggestion_title_results,2020-11-19 21:02:57
+Kertu,EE,HTML 5,0,scandal,Scandal,view_suggestion_info,suggestion_results,2020-11-19 21:01:58
+Kertu,EE,iPhone,0,the broken hear,Desperados,view_video_info,title_results,2020-11-08 09:13:25
+Kertu,EE,HTML 5,0,twi,Twilight,view_suggestion_info,suggestion_results,2020-10-21 12:25:55
+Kertu,EE,HTML 5,0,bo,Bodyguard,view_video_info,title_results,2020-10-18 19:43:53
+Kertu,EE,HTML 5,0,365,365 Days,play,title_results,2020-10-11 11:55:42
+Kertu,EE,iPhone,0,teen,Teen Wolf,play,video_info,2020-10-03 19:25:14
+Kertu,EE,iPhone,0,teen,Teen Wolf,play,video_info,2020-10-03 19:24:34
+Kertu,EE,iPhone,0,teen,Teen Wolf,view_video_info,title_results,2020-10-03 19:24:21
+Kertu,EE,HTML 5,0,step up,Step Up 2: The Streets,view_suggestion_info,suggestion_results,2020-08-24 18:30:37
+Kertu,EE,HTML 5,0,honey,Honey 3,view_suggestion_info,suggestion_results,2020-08-24 18:29:58
+Kertu,EE,HTML 5,0,honey,Honey 2,play,video_info,2020-08-24 18:29:36
+Kertu,EE,HTML 5,0,honey,Honey 2,view_video_info,title_results,2020-08-24 18:29:21
+Kertu,EE,iPhone,0,vox explained ,Explained,view_video_info,title_results,2020-08-10 07:53:28
+Kertu,EE,HTML 5,0,grey,Grey's Anatomy,view_suggestion_info,suggestion_results,2020-05-27 06:18:23
+Kertu,EE,iPhone,0,narnia ,"The Chronicles of Narnia: The Lion, the Witch & the Wardrobe",view_suggestion_info,suggestion_results,2020-05-25 10:25:30
+Kertu,EE,iPhone,0,grey’s anatomy,Grey's Anatomy,view_suggestion_info,suggestion_results,2020-05-24 17:06:12
+Kertu,EE,iPhone,0,don’t crack under,Mountain,view_video_info,suggestion_title_results,2020-05-21 18:08:13
+Kertu,EE,iPhone,0,don’t crack under,Don't Crack Under Pressure,view_suggestion_info,suggestion_results,2020-05-21 18:08:08
+Kertu,EE,iPhone,0,the vam,The Vampire Diaries,play,video_info,2020-05-10 18:06:53
+Kertu,EE,iPhone,0,the vam,The Vampire Diaries,play,video_info,2020-05-10 15:29:45
+Kertu,EE,iPhone,0,the vam,The Vampire Diaries,play,video_info,2020-05-10 15:28:36
+Kertu,EE,iPhone,0,the vam,The Vampire Diaries,view_video_info,title_results,2020-05-10 15:28:30
+Kertu,GB,HTML 5,0,one direction,One Direction: The Only Way Is Up,view_suggestion_info,suggestion_results,2020-05-08 10:02:22
+Kertu,GB,HTML 5,0,one direction,One Direction: All for One,view_suggestion_info,suggestion_results,2020-05-08 10:02:20
+Kertu,GB,HTML 5,0,one direction,One Direction: Up All Night - The Live Tour,view_suggestion_info,suggestion_results,2020-05-08 10:02:09
+Kertu,GB,HTML 5,0,this is us,One Direction: This Is Us,view_suggestion_info,suggestion_results,2020-05-08 10:01:03
+Kertu,EE,HTML 5,0,9021,90210,view_suggestion_info,suggestion_results,2020-05-04 15:43:46
+Kertu,EE,HTML 5,0,fifty,Fifty Shades Freed,view_video_info,title_results,2020-04-30 12:13:52
+Kertu,EE,iPhone,0,the mummy,The Mummy: Tomb of the Dragon Emperor,play,video_info,2020-04-20 07:58:43
+Kertu,EE,iPhone,0,the mummy,The Mummy: Tomb of the Dragon Emperor,view_video_info,title_results,2020-04-20 07:58:39
+Kertu,EE,HTML 5,0,fast and furious 8,Furious 7,play,title_results,2020-04-19 16:34:32
+Kertu,EE,iPhone,0,la casa d,La casa de papel,view_video_info,title_results,2020-04-03 07:00:05
+Kertu,EE,iPhone,0,love is ,Love Is Blind,view_video_info,title_results,2020-03-05 14:46:41
+Kertu,EE,iPhone,0,love,Love Is Blind,view_video_info,title_results,2020-03-04 18:42:22
+Kertu,EE,HTML 5,0,th,The Witcher,play,video_info,2020-02-05 09:53:01
+Kertu,EE,HTML 5,0,th,The Witcher,view_video_info,title_results,2020-02-05 09:53:00
+Kertu,EE,iPhone,0,the vamp,The Originals,view_video_info,title_results,2020-01-10 20:28:55
+Kertu,EE,iPhone,0,the vamp,The Vampire Diaries,play,video_info,2020-01-10 19:47:15
+Kertu,EE,iPhone,0,the vamp,The Vampire Diaries,view_video_info,title_results,2020-01-10 19:47:03
+Kertu,EE,iPhone,0,la casa ,La casa de papel,view_video_info,title_results,2020-01-10 14:12:29
+Kertu,EE,iPhone,0,bodygu,Bodyguard,view_video_info,title_results,2020-01-10 14:07:45
+Kertu,EE,iPhone,0,sherl,Sherlock,view_video_info,title_results,2020-01-04 14:21:51
+Kertu,EE,iPhone,0,sherlock ,Sherlock,view_video_info,title_results,2020-01-04 13:57:34
+Kertu,EE,HTML 5,0,duff,Teen Wolf,play,video_info,2019-12-27 17:53:10
+Kertu,EE,HTML 5,0,duff,Teen Wolf,view_video_info,suggestion_title_results,2019-12-27 17:53:03
+Kertu,EE,HTML 5,0,duff,The DUFF,view_suggestion_info,suggestion_results,2019-12-27 17:51:53
+Kertu,EE,HTML 5,0,facebook,The Big Short,play,suggestion_title_results,2019-12-26 18:20:55
+Kertu,EE,HTML 5,0,facebook,Mark Zuckerberg: The Real Face Behind Facebook,view_suggestion_info,suggestion_results,2019-12-26 18:20:29
+Kertu,EE,HTML 5,0,facebook,CNBC Originals: The Facebook Obsession,view_suggestion_info,suggestion_results,2019-12-26 18:20:21
+Kertu,EE,HTML 5,0,facebook,Mark Zuckerberg: Inside Facebook,view_suggestion_info,suggestion_results,2019-12-26 18:19:15
+Kertu,EE,iPhone,0,notting hill,Dirty Dancing,play,video_info,2019-12-25 21:32:48
+Kertu,EE,iPhone,0,notting hill,Dirty Dancing,view_video_info,suggestion_title_results,2019-12-25 21:32:38
+Kertu,EE,iPhone,0,notting hill,Notting Hill,view_suggestion_info,suggestion_results,2019-12-25 21:32:30
+Kertu,EE,HTML 5,0,fifty,Fifty Shades Freed,play,suggestion_title_results,2019-12-14 20:09:10
+Kertu,EE,HTML 5,0,fifty,Fifty: The Series,view_suggestion_info,suggestion_results,2019-12-14 20:08:48
+Kertu,EE,HTML 5,0,sex and the,Sex and the City 2,play,title_results,2019-12-14 19:30:47
+Kertu,EE,HTML 5,0,the prin,The Princess Switch,view_video_info,suggestion_title_results,2019-12-04 21:05:40
+Kertu,EE,HTML 5,0,the prin,The Prince & Me 2: The Royal Wedding,view_suggestion_info,suggestion_results,2019-12-04 21:05:29
+Kertu,EE,HTML 5,0,royals,The Royals,view_suggestion_info,suggestion_results,2019-12-01 18:37:20
+Kertu,EE,iPhone,0,brook,Brooklyn Nine-Nine,view_video_info,title_results,2019-11-17 13:41:18
+Kertu,EE,HTML 5,0,we are the,We Are the Wave,play,title_results,2019-11-13 19:35:24
+Kertu,EE,HTML 5,0,chi,Brooklyn Nine-Nine,play,suggestion_title_results,2019-10-29 19:30:13
+Kertu,EE,HTML 5,0,chi,Chicago Fire,view_suggestion_info,suggestion_results,2019-10-29 19:29:02
+Kertu,EE,HTML 5,0,jane,Jane The Virgin,view_video_info,title_results,2019-10-25 18:48:13
+Kertu,EE,HTML 5,0,jane,Jane The Virgin,play,video_info,2019-10-20 19:25:52
+Kertu,EE,HTML 5,0,jane,Jane The Virgin,view_video_info,title_results,2019-10-20 19:25:47
+Kertu,EE,HTML 5,0,the off,Brooklyn Nine-Nine,play,suggestion_title_results,2019-09-30 19:18:41
+Kertu,EE,HTML 5,0,the off,The Office (U.K.),view_suggestion_info,suggestion_results,2019-09-30 19:18:37
+Kertu,EE,HTML 5,0,the off,The Office (U.S.),view_suggestion_info,suggestion_results,2019-09-30 19:18:33
+Kertu,EE,HTML 5,0,chernobyl,WHAT / IF,view_video_info,suggestion_title_results,2019-09-02 17:36:20
+Kertu,EE,HTML 5,0,chernobyl,The Society,view_video_info,suggestion_title_results,2019-09-02 17:36:11
+Kertu,EE,HTML 5,0,chernobyl,Chernobyl,view_suggestion_info,suggestion_results,2019-09-02 17:34:25
+Kertu,EE,iPhone,0,tall girl,Tall Girl,view_video_info,title_results,2019-09-01 08:40:49
+Kertu,EE,HTML 5,0,teen ,Teen Wolf,play,video_info,2019-08-23 17:32:18
+Kertu,EE,HTML 5,0,teen ,Teen Wolf,view_video_info,title_results,2019-08-23 17:31:56
+Kertu,EE,HTML 5,0,mako m,Mako Mermaids: An H2O Adventure,play,title_results,2019-08-21 17:57:24
+Kertu,EE,iPhone,0,nullpunkt,Nullpunkt,view_suggestion_info,suggestion_results,2019-08-13 17:57:23
+Kertu,EE,iPhone,0,love,"Love, Death & Robots",view_video_info,title_results,2019-08-08 07:44:08
+Kertu,EE,HTML 5,0,chilling,Chilling Adventures of Sabrina,play,title_results,2019-07-31 11:29:22
+Kertu,EE,iPhone,0,chilling,Chilling Adventures of Sabrina,view_video_info,title_results,2019-07-31 07:17:34
+Kertu,EE,HTML 5,0,grey',Grey's Anatomy,view_suggestion_info,suggestion_results,2019-06-13 17:52:27
+Kertu,EE,HTML 5,0,desig,Designated Survivor,play,video_info,2019-06-08 16:27:37
+Kertu,EE,HTML 5,0,desig,Designated Survivor,view_video_info,title_results,2019-06-08 16:27:28
+Kertu,EE,HTML 5,0,dirty d,Love Actually,play,suggestion_title_results,2019-05-30 20:06:26
+Kertu,EE,HTML 5,0,dirty d,Dirty Dancing,view_suggestion_info,suggestion_results,2019-05-30 20:04:00
+Kertu,EE,iPhone,0,the ali,Peaky Blinders,view_video_info,title_results,2019-05-30 10:14:36
+Kertu,EE,iPhone,0,the ali,The Alienist,view_video_info,title_results,2019-05-30 10:14:19
+Kertu,EE,iPhone,0,mind hunters,MINDHUNTER,view_video_info,title_results,2019-05-30 10:14:09
+Kertu,EE,HTML 5,0,stra,Stranger Things,view_video_info,title_results,2019-05-23 14:26:53
+Kertu,US,HTML 5,0,iron man,Iron Man 2,view_suggestion_info,suggestion_results,2019-05-13 13:10:30
+Kertu,EE,HTML 5,0,captain marvel,Captain Marvel,view_suggestion_info,suggestion_results,2019-05-12 17:59:50
+Kertu,EE,HTML 5,0,captain ma,Captain Marvel,view_suggestion_info,suggestion_results,2019-05-12 17:59:10
+Kertu,US,HTML 5,0,captain ,Captain America: The First Avenger,view_suggestion_info,suggestion_results,2019-05-11 19:51:07
+Kertu,EE,HTML 5,0,captain,Captain America: The First Avenger,view_suggestion_info,suggestion_results,2019-05-11 19:45:59
+Kertu,EE,iPhone,0,hot summer nights,You Get Me,play,video_info,2019-05-06 18:39:50
+Kertu,EE,iPhone,0,hot summer nights,You Get Me,view_video_info,title_results,2019-05-06 18:39:46
+Kertu,EE,iPhone,0,da vinc,The Da Vinci Code,play,video_info,2019-04-26 07:30:17
+Kertu,EE,iPhone,0,da vinc,The Da Vinci Code,view_video_info,title_results,2019-04-26 07:30:16
+Kertu,US,HTML 5,0,princess diares,The Little Mermaid,play,video_info,2019-03-24 12:52:49
+Kertu,US,HTML 5,0,princess diares,The Little Mermaid,view_video_info,title_results,2019-03-24 12:51:33
+Kertu,EE,HTML 5,0,icarus,Icarus,play,video_info,2019-03-01 20:07:24
+Kertu,EE,HTML 5,0,icarus,Icarus,view_video_info,title_results,2019-03-01 20:07:21
+Kertu,EE,iPhone,0,narco,Countdown to Death: Pablo Escobar,view_video_info,title_results,2019-01-21 20:05:44
+Kertu,EE,iPhone,0,narco,Surviving Escobar - Alias JJ,view_video_info,title_results,2019-01-21 20:05:34
+Kertu,EE,iPhone,0,narco,Narcos: Mexico,view_video_info,title_results,2019-01-21 20:05:11
+Kertu,EE,iPhone,0,narco,Narcos,view_video_info,title_results,2019-01-21 20:05:00
+Kertu,EE,iPhone,0,narco,Narcos: Mexico,view_video_info,title_results,2019-01-21 20:04:55
+Kertu,EE,HTML 5,0,oceans 8,Ocean's Eight,view_suggestion_info,suggestion_results,2018-12-28 16:06:37
+Kertu,US,HTML 5,0,supergirl,Supergirl,view_video_info,title_results,2018-12-15 13:28:59
+Kertu,EE,HTML 5,0,beauty,Beauty and the Beast (2017),view_suggestion_info,suggestion_results,2018-12-12 20:07:00
+Kertu,EE,HTML 5,0,grinch,The Polar Express,view_video_info,title_results,2018-12-08 18:12:12
+Kertu,EE,HTML 5,0,grinch,The Princess Switch,view_video_info,title_results,2018-12-08 18:09:55
+Kertu,EE,HTML 5,0,grinch,Elf,view_video_info,title_results,2018-12-08 18:07:03
+Kertu,EE,iPhone,0,the arr,Arrow,view_video_info,title_results,2018-11-19 20:26:35
+Kertu,EE,iPhone,0,teen wol,Teen Wolf,view_video_info,title_results,2018-11-14 14:57:41
+Kertu,EE,iPhone,0,teen,Teen Wolf,view_video_info,title_results,2018-11-14 14:51:50
+Kertu,EE,HTML 5,0,the arrow,Arrow,play,video_info,2018-10-21 12:13:35
+Kertu,EE,HTML 5,0,the arrow,Arrow,view_video_info,title_results,2018-10-21 12:13:27
+Kertu,EE,,0,teen,,play,title_results,2018-10-06 19:01:53
+Kertu,EE,,0,friends,Friends,play,video_info,2018-09-10 18:37:26
+Kertu,EE,,0,friends,Friends,view_video_info,title_results,2018-09-10 18:37:18
+Kertu,EE,HTML 5,0,romeo and julia,teen wolf,view_video_info,title_results,2018-08-24 17:56:48
+Kertu,EE,HTML 5,0,thes avenger ci,citizen toxie: the toxic avenger iv,view_suggestion_info,suggestion_results,2018-08-21 10:23:54
+Kertu,EE,HTML 5,0,thes av,the avengers,view_suggestion_info,suggestion_results,2018-08-21 07:56:08
+Kertu,EE,HTML 5,0,spiderman,man of steel,view_video_info,suggestion_title_results,2018-08-17 07:42:40
+Kertu,EE,HTML 5,0,spiderman,superman returns,view_video_info,suggestion_title_results,2018-08-17 07:42:33
+Kertu,EE,HTML 5,0,spiderman,spider-man: homecoming,view_suggestion_info,suggestion_results,2018-08-17 07:41:48
+Kertu,EE,HTML 5,0,the greatest ,the greatest showman,view_suggestion_info,suggestion_results,2018-08-14 19:27:30
+Kertu,EE,iPhone,0,strictly sexual,-1,view_video_info,title_results,2018-08-08 17:54:54
+Kertu,EE,iPhone,0,strictly sexual,-1,view_video_info,title_results,2018-08-08 17:54:44
+Kertu,EE,iPhone,0,ce,-1,play,video_info,2018-08-02 07:34:17
+Kertu,EE,iPhone,0,ce,-1,view_video_info,title_results,2018-08-02 07:34:15
+Kertu,EE,iPhone,0,ce,-1,view_video_info,title_results,2018-08-02 06:41:27
+Kertu,EE,HTML 5,0,west side story,west side story,view_suggestion_info,suggestion_results,2018-08-01 19:42:50
+Kertu,EE,HTML 5,0,nothing hill,notting hill,view_suggestion_info,suggestion_results,2018-08-01 19:41:14
+Kertu,EE,HTML 5,0,mamma mia,mamma mia!,view_suggestion_info,suggestion_results,2018-08-01 19:40:52
+Kertu,EE,HTML 5,0,mamma mia,mamma mia!: bonus material,view_suggestion_info,suggestion_results,2018-08-01 19:39:47
+Kertu,EE,HTML 5,0,mamma mia,mamma mia!,view_suggestion_info,suggestion_results,2018-08-01 19:39:33
+Kertu,UY,iPhone,0,ice age,shrek forever after,view_video_info,title_results,2018-06-27 23:55:22
+Kertu,UY,iPhone,0,ice age,ice age: the meltdown,view_suggestion_info,suggestion_results,2018-06-27 23:55:13
+Kertu,UY,iPhone,0,ice age,-1,view_video_info,title_results,2018-06-27 23:54:59
+Kertu,UY,iPhone,0,ice age,-1,view_video_info,title_results,2018-06-27 23:54:43
+Kertu,UY,iPhone,0,james bond,-1,view_video_info,title_results,2018-06-19 02:31:43
+Kertu,UY,iPhone,0,gilm,-1,view_video_info,title_results,2018-06-13 21:17:07
+Kertu,UY,iPhone,0,gilm,-1,play,video_info,2018-06-13 21:17:02
+Kertu,UY,HTML 5,0,agentekc,k.c. undercover,play,title_results,2018-06-12 18:54:59
+Kertu,UY,iPhone,0,friends,-1,play,video_info,2018-05-01 00:31:13
+Kertu,UY,iPhone,0,friends,-1,view_video_info,title_results,2018-05-01 00:31:06
+Kertu,UY,iPhone,0,la casa de,-1,view_video_info,title_results,2018-03-20 23:04:45
+Kertu,UY,Laptop/Desktop,0,riverdale,gossip girl,play,video_info,2018-03-12 11:53:23
+Kertu,UY,Laptop/Desktop,0,riverdale,gossip girl,view_video_info,title_results,2018-03-12 11:52:36
+Kertu,UY,Laptop/Desktop,0,riverdale,dynasty,view_video_info,title_results,2018-03-12 11:52:31
+Kertu,UY,Laptop/Desktop,0,riverdale,pretty little liars,view_video_info,title_results,2018-03-12 11:52:31
+Kertu,UY,Laptop/Desktop,0,riverdale,riverdale,view_video_info,title_results,2018-03-12 11:52:19
+Kertu,UY,Laptop/Desktop,0,riverdale,money heist,view_video_info,title_results,2018-03-12 11:52:07
+Kertu,UY,Laptop/Desktop,0,riverd,friends,view_video_info,title_results,2018-03-03 03:31:13
+Kertu,UY,Laptop/Desktop,0,riverd,riverdale,view_video_info,title_results,2018-03-03 03:24:43
+Kertu,UY,Laptop/Desktop,0,la casa,la casa de papel,play,title_results,2018-02-27 01:23:11
+Kertu,UY,Laptop/Desktop,0,the host,the host,view_video_info,title_results,2018-02-12 01:31:23
+Kertu,UY,Laptop/Desktop,0,the host,the host,play,title_results,2018-02-12 01:31:21
+Kertu,UY,Laptop/Desktop,0,the host,the host,play,title_results,2018-02-12 00:28:51
+Kertu,UY,Laptop/Desktop,0,the host,the fosters,play,title_results,2018-02-12 00:28:27
+Kertu,UY,Laptop/Desktop,0,the host,the fosters,view_video_info,title_results,2018-02-12 00:19:53
+Kertu,UY,Laptop/Desktop,0,the host,the host,view_video_info,title_results,2018-02-12 00:19:22
+Kertu,--,Laptop/Desktop,0,ouija,ouija,play,title_results,2018-02-09 03:15:20
+Kertu,UY,iPhone,0,ouija,ouija,view_video_info,title_results,2018-02-09 02:25:45
+Kertu,--,Laptop/Desktop,0,the mortal,the mortal instruments: city of bones,play,title_results,2018-02-08 21:15:55
+Kertu,UY,iPhone,0,sex and the cu,-1,view_suggestion_info,suggestion_results,2018-02-06 03:18:49
+Kertu,UY,iPhone,0,sex and the cu,-1,view_suggestion_info,suggestion_results,2018-02-06 03:07:33
+Kertu,UY,iPhone,0,fifty sh,-1,view_suggestion_info,suggestion_results,2018-02-01 20:13:46
+Kertu,UY,Laptop/Desktop,0,fr,friends,play,title_results,2018-01-24 01:00:18
+Kertu,UY,Laptop/Desktop,0,da vinv,the da vinci code,play,title_results,2018-01-23 23:24:08
+Kertu,UY,Laptop/Desktop,0,avatar,avatar: the last airbender,play,title_results,2018-01-20 19:53:31
+Kertu,UY,iPhone,0,stra,stranger things,play,video_info,2018-01-15 20:44:04
+Kertu,UY,iPhone,0,stra,stranger things,view_video_info,title_results,2018-01-15 20:43:11
+Kertu,UY,Laptop/Desktop,0,stra,stranger things,play,title_results,2017-12-30 04:48:12
+Kertu,UY,iPhone,0,grey's anatomy,grey's anatomy,view_video_info,title_results,2017-12-25 21:33:28
+Kertu,UY,Laptop/Desktop,0,grey,grey's anatomy,play,title_results,2017-12-23 16:19:13
+Kertu,UY,Laptop/Desktop,0,spy,spy kids 2: the island of lost dreams,play,title_results,2017-12-21 02:27:01
+Kertu,UY,Laptop/Desktop,0,spy,spy kids: all the time in the world,play,title_results,2017-12-17 20:12:10
+Kertu,UY,Laptop/Desktop,0,z,zapped,play,title_results,2017-12-01 19:17:05
+Kertu,UY,Laptop/Desktop,0,rad,radio rebel,play,title_results,2017-12-01 00:40:02
+Kertu,UY,Laptop/Desktop,0,harry potter,harry potter and the prisoner of azkaban,view_suggestion_info,suggestion_results,2017-11-17 00:20:59
+Kertu,UY,Laptop/Desktop,0,harry potter,harry potter and the deathly hallows: part 1,view_suggestion_info,suggestion_results,2017-11-17 00:20:53
+Kertu,UY,Laptop/Desktop,0,narnia1,"the chronicles of narnia: the lion, the witch & the wardrobe",play,title_results,2017-10-18 15:28:49
+Kertu,UY,Laptop/Desktop,0,s,shrek 2,view_video_info,title_results,2017-10-17 18:14:36
+Kertu,UY,Laptop/Desktop,0,s,shrek 2,play,video_info,2017-10-17 17:53:06
+Kertu,UY,Laptop/Desktop,0,s,shrek 2,view_video_info,title_results,2017-10-17 17:53:02
+Kertu,UY,Laptop/Desktop,0,s,shrek,play,title_results,2017-10-17 15:52:15
+Kertu,UY,Laptop/Desktop,0,ma,maleficent,play,title_results,2017-10-16 23:40:39
+Kertu,UY,Laptop/Desktop,0,harry po,maleficent,play,title_results,2017-10-16 22:11:08
+Kertu,UY,Laptop/Desktop,0,percy jackson: sea of mo ,sister act,play,video_info,2017-10-07 23:55:55
+Kertu,UY,Laptop/Desktop,0,percy jackson: sea of mo ,suburra: blood on rome,play,title_results,2017-10-07 23:54:26
+Kertu,UY,Laptop/Desktop,0,percy jackson: sea of mo ,friends,view_video_info,title_results,2017-10-07 23:54:26
+Kertu,UY,Laptop/Desktop,0,percy jackson: sea of monsters,friends,view_video_info,title_results,2017-10-07 23:53:50
+Kertu,UY,Laptop/Desktop,0,percy jackson: sea of monsters,suburra: blood on rome,play,title_results,2017-10-07 23:53:50
+Kertu,UY,Laptop/Desktop,0,p,percy jackson & the olympians: the lightning thief,play,title_results,2017-10-07 01:38:36
+Kertu,UY,Laptop/Desktop,0,pitch perfect 1,pitch perfect 2,play,title_results,2017-09-30 02:17:58
+Kertu,UY,Laptop/Desktop,0,bfg,the incredibles,play,title_results,2017-09-11 23:44:14
+Kertu,US,iPhone,0,grey',-1,play,title_results,2017-08-09 10:26:43
+Kertu,US,iPhone,0,grey',-1,play,video_info,2017-08-09 10:26:35
+Kertu,US,iPhone,0,grey',grey's anatomy,view_video_info,title_results,2017-08-09 10:26:25
+Laura,NL,iPhone,0,creek,,play,video_info,2021-10-15 22:11:25
+Laura,NL,iPhone,0,creek,,play,video_info,2021-10-15 21:39:19
+Laura,NL,iPhone,0,creek,,view_video_info,suggestion_title_results,2021-10-15 21:39:12
+Laura,NL,iPhone,0,se,,play,video_info,2021-09-11 22:11:30
+Laura,NL,iPhone,0,se,Sex/Life,play,video_info,2021-09-11 21:45:39
+Laura,NL,iPhone,0,se,Sex/Life,view_video_info,title_results,2021-09-11 21:45:31
+Laura,EE,HTML 5,0,friends,Friends,view_suggestion_info,suggestion_results,2021-08-16 15:38:05
+Laura,EE,iPhone,0,below,Below Deck,play,video_info,2021-06-01 11:22:21
+Laura,EE,iPhone,0,below,Below Deck,view_video_info,title_results,2021-06-01 11:22:00
+Laura,EE,HTML 5,0,anne,Anne with an E,play,title_results,2021-04-03 17:39:53
+Laura,EE,iPhone,0,the bold ty,,play,video_info,2021-03-09 20:32:52
+Laura,EE,iPhone,0,the bold ty,,view_video_info,title_results,2021-03-09 20:31:49
+Laura,EE,iPhone,0,the cr,The Crown,view_video_info,title_results,2020-12-27 07:42:45
+Laura,EE,iPhone,0,the playbook,The Playbook,view_video_info,title_results,2020-11-22 08:32:53
+Laura,EE,iPhone,0,emily,Emily in Paris,play,video_info,2020-10-03 21:02:27
+Laura,EE,iPhone,0,emily,Emily in Paris,view_video_info,title_results,2020-10-03 21:02:13
+Laura,EE,iPhone,0,the social,The Social Dilemma,play,video_info,2020-09-18 19:25:40
+Laura,EE,iPhone,0,the social,The Social Dilemma,view_video_info,title_results,2020-09-18 19:25:38
+Laura,EE,iPhone,0,suits,Suits,view_video_info,title_results,2020-09-02 09:55:21
+Laura,EE,iPhone,0,house of car,House of Cards,play,video_info,2020-08-17 19:13:24
+Laura,EE,iPhone,0,house of car,House of Cards,view_video_info,title_results,2020-08-17 19:13:00
+Laura,EE,iPhone,0,real house,The Real Housewives of New York City,play,video_info,2020-06-14 13:05:35
+Laura,EE,iPhone,0,real house,The Real Housewives of New York City,view_video_info,title_results,2020-06-14 13:05:32
+Laura,EE,iPhone,0,real house,Keeping Up with the Kardashians,view_video_info,title_results,2020-06-14 13:05:12
+Laura,PT,HTML 5,0,dirty mone,Rotten,view_video_info,title_results,2019-12-18 20:54:20
+Laura,PT,HTML 5,0,dirty mone,The Big Short,view_video_info,title_results,2019-12-18 20:52:37
+Laura,PT,HTML 5,0,dirty mone,Dirty Money,play,video_info,2019-12-18 20:49:54
+Laura,PT,HTML 5,0,dirty mone,Dirty Money,view_video_info,title_results,2019-12-18 20:49:38
+Laura,PT,HTML 5,0,dirty mone,Dirty Money,play,title_results,2019-12-18 20:49:28
+Laura,PT,HTML 5,0,strong,The Redeemed and the Dominant: Fittest on Earth,view_video_info,title_results,2019-12-15 15:10:09
+Laura,PT,HTML 5,0,the great ha,The Great Hack,play,title_results,2019-12-15 13:15:53
+Laura,PT,HTML 5,0,not,Notting Hill,play,title_results,2019-11-23 18:34:55
+Laura,PT,HTML 5,0,crown,The Crown,view_video_info,title_results,2019-11-10 19:27:09
+Laura,PT,HTML 5,0,crown,The Crown,play,title_results,2019-11-10 19:26:56
+Laura,PT,HTML 5,0,sex and the city 1,Sex and the City 2,play,title_results,2019-10-19 21:49:03
+Laura,PT,HTML 5,0,twilight,Burlesque,play,title_results,2019-10-19 20:04:00
+Laura,PT,iPhone,0,friends,Friends,play,video_info,2019-09-09 17:26:36
+Laura,PT,iPhone,0,friends,Friends,view_video_info,title_results,2019-09-09 17:26:33
+Laura,EE,iPhone,0,black ,Black Mirror,view_video_info,title_results,2019-08-28 06:19:24
+Laura,EE,iPhone,0,black,Black Mirror: Bandersnatch,view_video_info,title_results,2019-08-28 06:19:06
+Laura,LV,HTML 5,0,icarus,Icarus,play,video_info,2019-05-24 08:10:00
+Laura,LV,HTML 5,0,icarus,Icarus,view_video_info,title_results,2019-05-24 08:09:54
+Laura,LV,iPhone,0,homec,HOMECOMING: A film by Beyoncé,view_video_info,title_results,2019-04-18 08:43:50
+Laura,LV,HTML 5,0,grow,Amy Schumer Growing,play,title_results,2019-04-05 08:11:07
+Laura,LV,HTML 5,0,christmas,A Christmas Prince: The Royal Wedding,play,title_results,2018-12-19 08:29:25
+Laura,LV,iPhone,0,friends,Friends,play,video_info,2018-11-25 19:25:05
+Laura,LV,iPhone,0,friends,Friends,view_video_info,title_results,2018-11-25 19:25:04
+Laura,EE,iPhone,0,godfather,The Godfather,view_video_info,title_results,2018-11-25 07:30:42
+Laura,EE,HTML 5,0,godfather,The Godfather,view_video_info,title_results,2018-11-25 05:51:33
+Laura,EE,HTML 5,0,godfather,The Godfather,play,title_results,2018-11-25 05:51:16
+Laura,LV,HTML 5,0,godfather,The Godfather,play,video_info,2018-11-23 14:28:31
+Laura,LV,HTML 5,0,godfather,The Godfather,view_video_info,title_results,2018-11-23 14:28:26
+Laura,LV,HTML 5,0,godfather,The Godfather,play,title_results,2018-11-23 14:28:11
+Laura,LV,HTML 5,0,harry potter,Dynasty,play,title_results,2018-11-07 16:15:13
+Laura,LV,HTML 5,0,scandal,How to Get Away With Murder,view_video_info,title_results,2018-10-25 04:42:18
+Laura,LV,HTML 5,0,scandal,Designated Survivor,view_video_info,title_results,2018-10-25 04:42:10
+Laura,LV,HTML 5,0,scandal,Dynasty,view_video_info,title_results,2018-10-25 04:41:52
+Laura,LV,,0,jigsaw,Daniel Sloss: Live Shows,play,title_results,2018-10-01 14:07:41
+Laura,LV,HTML 5,0,shark tank,friends,play,title_results,2018-08-27 08:22:25
+Laura,EE,HTML 5,0,designated,the blacklist,view_video_info,title_results,2018-06-01 07:02:30
+Laura,EE,HTML 5,0,designated,house of cards,view_video_info,title_results,2018-06-01 07:02:29
+Laura,EE,HTML 5,0,designated,designated survivor,view_video_info,title_results,2018-06-01 07:02:14
+Laura,LV,HTML 5,0,friends,friends,play,video_info,2018-05-08 18:14:45
+Laura,LV,HTML 5,0,friends,friends,view_video_info,title_results,2018-05-08 18:14:38
+Laura,LV,HTML 5,0,food,"fat, sick & nearly dead",play,title_results,2018-04-21 18:43:56
+Laura,FR,HTML 5,0,moulin rouge,moulin rouge,view_suggestion_info,suggestion_results,2018-04-06 19:48:05
+Laura,FR,HTML 5,0,phantom of opera,the phantom of the opera at the royal albert hall,view_suggestion_info,suggestion_results,2018-04-05 18:02:24
+Laura,FR,HTML 5,0,phantom of opera,the phantom of the opera,view_suggestion_info,suggestion_results,2018-04-05 18:02:14
+Laura,FR,HTML 5,0,phantom of ,the phantom of the opera,view_suggestion_info,suggestion_results,2018-04-05 18:02:03
+Laura,--,HTML 5,0,suit,suits,view_video_info,title_results,2018-03-29 06:36:56
+Laura,LV,HTML 5,0,designa,designated survivor,view_video_info,title_results,2018-03-29 06:04:00
+Laura,LV,iPhone,0,fri,friends,play,video_info,2018-02-19 17:03:22
+Laura,LV,iPhone,0,fri,friends,view_video_info,title_results,2018-02-19 17:03:17
+Laura,EE,Laptop/Desktop,0,charlie ,charlie and the chocolate factory,play,title_results,2017-12-27 15:53:40
+Laura,LV,Laptop/Desktop,0,harry potter,harry potter and the order of the phoenix,view_suggestion_info,suggestion_results,2017-12-14 20:02:45
+Laura,LV,Laptop/Desktop,0,harry potter,harry potter and the deathly hallows: part 1,view_suggestion_info,suggestion_results,2017-12-14 20:02:40
+Laura,LV,Laptop/Desktop,0,harry potter,harry potter and the prisoner of azkaban,view_suggestion_info,suggestion_results,2017-12-14 20:02:35
+Laura,LV,Laptop/Desktop,0,harry potter,harry potter and the deathly hallows: part 1,view_suggestion_info,suggestion_results,2017-12-14 20:02:24
+Laura,LV,Laptop/Desktop,0,dinasty,dynasty,play,video_info,2017-12-14 14:23:29
+Laura,LV,Laptop/Desktop,0,dinasty,dynasty,view_video_info,title_results,2017-12-14 14:23:24
+Laura,LV,Laptop/Desktop,0,des,designated survivor,view_video_info,title_results,2017-11-17 07:35:12
+Laura,ES,Laptop/Desktop,0,gossip girl,friends,play,suggestion_title_results,2017-10-29 14:48:41
+Laura,ES,Laptop/Desktop,0,gossip girl,gossip girl,view_suggestion_info,suggestion_results,2017-10-29 14:48:35
+Laura,EE,Laptop/Desktop,0,go,gossip girl,play,title_results,2017-09-22 20:01:45
+Laura,LV,Laptop/Desktop,0,keeping up with the kard,gossip girl,play,title_results,2017-09-21 13:37:22
+Laura,EE,Laptop/Desktop,0,suits,suits,play,title_results,2017-09-16 10:38:31
+Laura,LV,Laptop/Desktop,0,suits,suits,view_video_info,title_results,2017-09-13 20:27:56
+Laura,LV,Laptop/Desktop,0,suits,suits,play,video_info,2017-09-13 19:55:24
+Laura,LV,Laptop/Desktop,0,suits,suits,view_video_info,title_results,2017-09-13 19:55:09
+Laura,LV,Laptop/Desktop,0,notthing ,-1,view_suggestion_info,suggestion_results,2017-09-10 19:23:02
+Laura,LV,Laptop/Desktop,0,nothing hill,notting hill,view_suggestion_info,suggestion_results,2017-09-10 19:21:38
+Laura,LV,Laptop/Desktop,0,game of thronew,game of thrones,view_suggestion_info,suggestion_results,2017-09-05 18:37:09
+Laura,LV,Laptop/Desktop,0,desig,house of cards,view_video_info,title_results,2017-09-05 18:32:45
+Laura,LV,Laptop/Desktop,0,desig,designated survivor,view_video_info,title_results,2017-09-05 18:32:29
+Laura,LV,Laptop/Desktop,0,desig,designated survivor,play,title_results,2017-09-05 16:30:49
+Laura,LV,Laptop/Desktop,0,friends,fuller house,play,video_info,2017-08-29 15:16:10
+Laura,LV,Laptop/Desktop,0,friends,fuller house,view_video_info,title_results,2017-08-29 15:16:06
+Laura,LV,Laptop/Desktop,0,friends,friends,view_suggestion_info,suggestion_results,2017-08-29 15:14:57
+Jaanika,EE,HTML 5,0,game,The Game Changers,view_video_info,title_results,2019-11-24 11:26:08
+Agur,NL,HTML 5,0,friends,Friends,play,title_results,2021-08-28 19:24:37
+Agur,BE,iPad,0,sas,SAS: Rise of the Black Swan,play,video_info,2021-08-27 21:14:51
+Agur,BE,iPad,0,sas,SAS: Rise of the Black Swan,view_video_info,title_results,2021-08-27 21:14:27
+Agur,EE,iPad,0,silver spoon,Silver Spoon,view_video_info,title_results,2021-07-05 12:12:52
+Agur,EE,HTML 5,0,kirill karo,Kirill Käro,view_suggestion_info,suggestion_results,2020-11-05 13:46:52
+Agur,EE,HTML 5,0,to the lake,To the Lake,play,title_results,2020-11-05 13:44:18
+Agur,EE,HTML 5,0,sudden death,Sudden Death,view_suggestion_info,suggestion_results,2020-10-02 21:04:51
+Agur,EE,HTML 5,0,faud,Fauda,play,title_results,2020-07-20 18:50:12
+Agur,EE,iPhone,0,trailer,Trailer Park Boys: The Movie,view_video_info,title_results,2020-06-23 17:46:14
+Agur,EE,iPhone,0,trailer,Trailer Park Boys: The Animated Series,view_video_info,title_results,2020-06-23 17:45:57
+Agur,EE,iPhone,0,trailer,Trailer Park Boys,view_video_info,title_results,2020-06-23 17:45:00
+Agur,EE,iPhone,0,trailer,Trailer Park Boys,view_video_info,title_results,2020-06-23 17:44:41
+Agur,EE,HTML 5,0,la manche,Burn Out,play,title_results,2020-05-17 17:41:58
+Agur,EE,HTML 5,0,armed response,S.W.A.T.: Under Siege,play,title_results,2020-05-08 21:22:32
+Agur,EE,HTML 5,0,armed response,Gridlocked,play,title_results,2020-05-08 19:18:46
+Agur,US,HTML 5,0,billions,Money,view_video_info,title_results,2020-04-25 18:59:21
+Agur,US,HTML 5,0,billions,Billions,view_suggestion_info,suggestion_results,2020-04-22 20:52:55
+Agur,EE,HTML 5,0,billions,Billions,view_suggestion_info,suggestion_results,2020-04-22 20:48:06
+Agur,EE,HTML 5,0,ant-man and the wasp,The 5th Wave,play,title_results,2020-04-03 20:44:14
+Agur,EE,HTML 5,0,ant-man and the wasp,Dirt,play,title_results,2020-04-03 19:06:00
+Agur,EE,HTML 5,0,ant-man and the wasp,Triple Frontier,play,title_results,2020-04-03 19:05:16
+Agur,EE,HTML 5,0,office,,play,title_results,2020-03-28 22:24:58
+Agur,EE,HTML 5,0,office,6 Underground,play,video_info,2020-03-28 20:20:42
+Agur,EE,HTML 5,0,office,6 Underground,view_video_info,title_results,2020-03-28 20:17:48
+Agur,EE,HTML 5,0,office,Suits,view_video_info,title_results,2020-03-28 20:16:45
+Agur,EE,iPhone,0,spencer,Spenser Confidential,view_video_info,title_results,2020-03-07 15:12:28
+Agur,LV,iPhone,0,spencer,Spenser Confidential,view_video_info,title_results,2020-03-06 13:08:02
+Agur,EE,HTML 5,0,iris,The Irishman,play,title_results,2019-12-21 23:34:05
+Agur,EE,HTML 5,0,point blank,Point Blank,play,title_results,2019-07-12 20:45:06
+Agur,EE,HTML 5,0,24: legacy,Designated Survivor,view_video_info,title_results,2019-05-30 19:34:39
+Agur,EE,HTML 5,0,24,24,view_suggestion_info,suggestion_results,2019-05-30 19:26:40
+Agur,EE,HTML 5,0,24,24: Legacy,view_suggestion_info,suggestion_results,2019-05-30 19:26:14
+Agur,EE,HTML 5,0,suits,Suits,view_video_info,title_results,2019-04-22 20:04:24
+Agur,EE,HTML 5,0,suits,Suits,play,title_results,2019-04-22 20:04:15
+Agur,EE,HTML 5,0,shooter,Shooter,play,video_info,2019-03-17 19:35:41
+Agur,EE,HTML 5,0,shooter,Shooter,view_video_info,title_results,2019-03-17 19:35:34
+Agur,EE,HTML 5,0,shooter,Shooter,play,title_results,2019-03-17 19:34:59
+Agur,EE,HTML 5,0,high flying b,High Flying Bird,play,title_results,2019-02-08 22:26:11
+Agur,EE,HTML 5,0,black,Black Mirror: Bandersnatch,play,video_info,2019-02-08 20:33:18
+Agur,EE,HTML 5,0,black,Black Mirror: Bandersnatch,play,title_results,2019-02-08 20:33:11
+Agur,EE,HTML 5,0,godfather,The Godfather,view_video_info,title_results,2018-11-24 20:29:27
+Agur,EE,HTML 5,0,godfather,The Godfather,play,title_results,2018-11-24 20:29:08
+Agur,EE,iPhone,0,bla,black mirror,play,video_info,2018-01-18 20:54:16
+Agur,EE,iPhone,0,bla,black mirror,view_video_info,title_results,2018-01-18 20:54:10
+Agur,EE,Laptop/Desktop,0,stranger t,-1,add_to_list,title_results,2018-01-12 12:30:23
+Agur,EE,Laptop/Desktop,0,10 clo,10 cloverfield lane,add_to_list,title_results,2018-01-12 12:28:55
+Agur,EE,Laptop/Desktop,0,10 clo,10 cloverfield lane,play,title_results,2018-01-12 12:28:40
+Agur,EE,Laptop/Desktop,0,dirk gently,dirk gently's holistic detective agency,add_to_list,video_info,2018-01-12 12:27:14
+Agur,EE,Laptop/Desktop,0,dirk gently,dirk gently's holistic detective agency,view_video_info,title_results,2018-01-12 12:27:07
+Agur,US,iPhone,0,designated,designated survivor,view_suggestion_info,suggestion_results,2017-12-12 10:49:53
+Agur,EE,Laptop/Desktop,0,suit,suits,view_video_info,title_results,2017-11-30 15:52:56
+Agur,EE,Laptop/Desktop,0,black,black mirror,add_to_list,video_info,2017-11-30 15:29:22
+Agur,EE,Laptop/Desktop,0,black,black mirror,view_video_info,title_results,2017-11-30 15:29:16
+Agur,EE,iPhone,0,sher,-1,add_to_list,video_info,2017-09-05 19:04:18
+Agur,EE,iPhone,0,sher,elementary,view_video_info,title_results,2017-09-05 19:04:15
+Agur,EE,iPhone,0,silicon valley,sherlock,view_video_info,title_results,2017-09-05 19:03:42
+Agur,EE,iPhone,0,startup,the same sky,view_video_info,video_info,2017-09-05 19:01:51
+Agur,EE,iPhone,0,startup,genius,view_video_info,suggestion_title_results,2017-09-05 19:01:33
+Agur,EE,iPhone,0,startup,startup.com,view_suggestion_info,suggestion_results,2017-09-05 19:01:25
+Agur,EE,iPhone,0,startup,designated survivor,view_video_info,title_results,2017-09-05 19:00:53
+Agur,EE,iPhone,0,startup,limitless,view_video_info,title_results,2017-09-05 19:00:32
+Agur,EE,iPhone,0,startup,white gold,view_video_info,title_results,2017-09-05 19:00:27
+Agur,EE,iPhone,0,startup,-1,add_to_list,video_info,2017-09-05 19:00:22
+Agur,EE,iPhone,0,startup,black mirror,view_video_info,title_results,2017-09-05 19:00:17
+Agur,EE,iPhone,0,startup,white gold,view_video_info,title_results,2017-09-05 19:00:03
+Agur,EE,iPhone,0,startup,abstract: the art of design,view_video_info,title_results,2017-09-05 18:59:45
+Agur,EE,iPhone,0,startup,-1,add_to_list,video_info,2017-09-05 18:59:34
+Agur,EE,iPhone,0,startup,the big short,view_video_info,title_results,2017-09-05 18:59:25
+Agur,EE,iPhone,0,startup,banking on bitcoin,view_video_info,title_results,2017-09-05 18:59:13
+Agur,EE,iPhone,0,shark ta,-1,add_to_list,video_info,2017-09-05 18:58:21
+Agur,EE,iPhone,0,shark ta,shark tank,view_video_info,title_results,2017-09-05 18:58:12
+Agur,LV,iPhone,0,friends ,-1,view_suggestion_info,suggestion_results,2017-08-18 11:21:44
+Agur,US,Laptop/Desktop,0,shadowhunters,riverdale,add_to_list,title_results,2017-08-09 09:39:33
+Agur,US,Laptop/Desktop,0,grey's,grey's anatomy,view_video_info,title_results,2017-08-09 09:36:42
