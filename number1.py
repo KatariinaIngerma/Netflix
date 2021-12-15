@@ -13,21 +13,26 @@ import matplotlib.image as mpimg
 
 raam = Tk()
 sisend = Entry(raam, width=40, font="Graphique 15")
+
 def kasutaja_sisend():
     kustuta_pilt()
     data = pd.read_csv('KertuViewingActivity.csv')
     uus_sisend = str(sisend.get())
-    google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\katar\OneDrive\Desktop\Netflix'})
-#     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
-    google_Crawler.crawl(keyword = uus_sisend, max_num = 1)
+#     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\katar\OneDrive\Desktop\Netflix'})
+# #     google_Crawler = GoogleImageCrawler(storage = {'root_dir': r'C:\Users\Külmkapp\OneDrive\Desktop\Netflix'})
+#     google_Crawler.crawl(keyword = uus_sisend, max_num = 1)
+    return uus_raam()
+    
+def uus_raam():
     uus_nimi()
-    kas_pilt_on()
     uusraam = Toplevel(raam) #toplevel uus aken
     uusraam.title(str(sisend.get()))
-    uusraam.geometry("1000x600")
+    uusraam.geometry("800x600")
     uusraam.configure(bg="white")
     nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
     aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
+    graafik = Button(uusraam, text="Nädalapäevad", command = graafik1, font=("Graphique", 15),bg="white").pack(pady=30)
+    graafik2 = Button(uusraam, text="graafik2()", font=("Graphique", 15),bg="white").pack(pady=30)
     
 def send():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -38,8 +43,8 @@ def send():
         if kasutaja_sisend in veerg:
             aeg = data[data['Title'].str.contains(kasutaja_sisend, regex=False)]
             aeg = aeg[(aeg['Duration'] > '0 days 00:01:00')]
-            kokku = ("Oled vaadanud seda: " + str(aeg['Duration'].sum()))
-            return kokku
+            kokku = ("Oled vaadanud seda: "+  str(aeg['Duration'].sum()))
+            return kokku    
 
 def päevad():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -124,22 +129,6 @@ def uus_nimi():
 def kustuta_pilt():
     if os.path.exists("000001.png"):
         os.remove("000001.png")
-
-def kas_pilt_on():
-    if os.path.exists("000001.png"):
-        uusraam = Toplevel(raam) #toplevel uus aken
-        uusraam.title(str(sisend.get()))
-        uusraam.geometry("1000x600")
-        uusraam.configure(bg="white")
-        nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
-        aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
-        im = Image.open("000001.png")
-        ph = ImageTk.PhotoImage(r"C:\Users\katar\OneDrive\Desktop\Netflix", master = raam)
-
-        label = Label(uusraam, image=ph)
-        label.image=ph
-    else:
-        print("loll")
     
 def film_või_sari(): 
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -164,6 +153,46 @@ def kogu_aeg():
     kokku=pd.to_timedelta(data['Duration']).sum()
     return kokku
 
+def graafik1():
+    E = 0
+    T = 0
+    K = 0
+    N = 0
+    R = 0
+    L = 0
+    P = 0
+    data = pd.read_csv('KertuViewingActivity.csv')
+    aeg = data["Start Time"]
+    kasutaja_sisend = sisend.get()
+    listike=[]
+    for rida in aeg:
+        for kasutaja_sisend in rida:
+            üks_rida = rida.split()
+            uus1 = üks_rida[0]
+            uus2 = uus1.split("-")
+            uus3 = uus2[::-1]
+            string = " ".join(uus3)
+            päev = datetime.datetime.strptime(string,'%d %m %Y').weekday()
+            päeva_nimi = calendar.day_name[päev]
+            
+            if päeva_nimi == "Monday":
+                E += 1
+            elif päeva_nimi == "Tuesday":
+                T += 1
+            elif päeva_nimi == "Wednesday":
+                K += 1
+            elif päeva_nimi == "Thursday":
+                N += 1
+            elif päeva_nimi == "Friday":
+                R += 1
+            elif päeva_nimi == "Saturday":
+                L += 1
+            elif päeva_nimi == "Sunday":
+                P += 1
+    listike.extend([E,T,K,N,R,L,P])
+    plot.bar(["E","T", "K", "N", "R", "L", "P"], listike, color ="red")
+    plot.title("Oled vaadanud Netflixi nende päevadel")
+    plot.show()        
 
 raam.call('wm', 'iconphoto', raam._w, PhotoImage(file='n.png'))
 raam.title("Netflix andmeanalüüs")
