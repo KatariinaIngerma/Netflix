@@ -31,7 +31,7 @@ def uus_raam():
     uusraam.configure(bg="white")
     nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
     aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
-    graafik = Button(uusraam, text="Nädalapäevad", command = graafik1, font=("Graphique", 15),bg="white").pack(pady=30)
+    graafik_1 = Button(uusraam, text="Nädalapäevad", command = graafik1, font=("Graphique", 15),bg="white").pack(pady=30)
     graafik_3 = Button(uusraam, text="Aastad",command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
     graafik_2 = Button(uusraam, text="Aastajad", command = graafik2, font=("Graphique", 15),bg="white").pack(pady=30)
     
@@ -229,9 +229,11 @@ def graafik2():
         Sügis=0
         Talv=0
         Kevad=0
-        for rida in aeg:
-            for kasutaja_sisend in rida:
-                üks_rida = rida.split()
+        for row in loeb:
+            pealkiri = row[4]
+            aeg = row[1]
+            if kasutaja_sisend in pealkiri:
+                üks_rida = aeg.split()
                 uus1 = üks_rida[0]
                 uus2 = uus1.split("-")
                 kuu = uus2[1]
