@@ -32,8 +32,8 @@ def uus_raam():
     nimi = Label(uusraam, text = sisend.get().upper(), bg="white",font=("Graphique", 17)).pack(pady=20)
     aeg = Label(uusraam, text = send(), font=("Graphique", 15),bg="white").pack()
     graafik = Button(uusraam, text="Nädalapäevad", command = graafik1, font=("Graphique", 15),bg="white").pack(pady=30)
-    graafik2 = Button(uusraam, text="Aastad",command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
-    #graafik3 = Button(uusraam, text="Aastajad", command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
+    graafik_3 = Button(uusraam, text="Aastad",command = graafik3, font=("Graphique", 15),bg="white").pack(pady=30)
+    graafik_2 = Button(uusraam, text="Aastajad", command = graafik2, font=("Graphique", 15),bg="white").pack(pady=30)
     
 def send():
     data = pd.read_csv('KertuViewingActivity.csv')
@@ -221,44 +221,44 @@ def graafik1():
     
 def graafik2():
     #aastajaliselt??
-    data = pd.read_csv('KertuViewingActivity.csv')
-    aeg = data["Start Time"]
-    kasutaja_sisend = sisend.get()
-    aastaajad=[]
-    Suvi=0
-    Sügis=0
-    Talv=0
-    Kevad=0
-    for rida in aeg:
-        for kasutaja_sisend in rida:
-            üks_rida = rida.split()
-            uus1 = üks_rida[0]
-            uus2 = uus1.split("-")
-            kuu = uus2[1]
-            if kuu == "01":
-                Talv += 1
-            elif kuu == "02":
-                Talv += 1
-            elif kuu == "12":
-                Talv += 1
-            elif kuu == "03":
-                Kevad += 1
-            elif kuu == "04":
-                Kevad += 1
-            elif kuu == "05":
-                Kevad += 1
-            elif kuu == "06":
-                Suvi += 1
-            elif kuu == "07":
-                Suvi += 1
-            elif kuu == "08":
-                Suvi += 1
-            elif kuu == "09":
-                Sügis += 1
-            elif kuu == "10":
-                Sügis += 1
-            elif kuu == "11":
-                Sügis += 1
+    with open("KertuViewingActivity.csv") as f:
+        loeb = csv.reader(f)
+        kasutaja_sisend = sisend.get()
+        aastaajad=[]
+        Suvi=0
+        Sügis=0
+        Talv=0
+        Kevad=0
+        for rida in aeg:
+            for kasutaja_sisend in rida:
+                üks_rida = rida.split()
+                uus1 = üks_rida[0]
+                uus2 = uus1.split("-")
+                kuu = uus2[1]
+                if kuu == "01":
+                    Talv += 1
+                elif kuu == "02":
+                    Talv += 1
+                elif kuu == "12":
+                    Talv += 1
+                elif kuu == "03":
+                    Kevad += 1
+                elif kuu == "04":
+                    Kevad += 1
+                elif kuu == "05":
+                    Kevad += 1
+                elif kuu == "06":
+                    Suvi += 1
+                elif kuu == "07":
+                    Suvi += 1
+                elif kuu == "08":
+                    Suvi += 1
+                elif kuu == "09":
+                    Sügis += 1
+                elif kuu == "10":
+                    Sügis += 1
+                elif kuu == "11":
+                    Sügis += 1
     aastaajad.extend([Talv, Kevad, Suvi, Sügis])
     plot.bar(["Talv","Kevad", "Suvi", "Sügis"],aastaajad , color ="red")
     plot.title("Oled vaadanud Netflixi nende aastaaegadel")
